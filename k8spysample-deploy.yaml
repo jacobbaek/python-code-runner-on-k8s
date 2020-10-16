@@ -1,0 +1,17 @@
+apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
+kind: Deployment
+metadata:
+  name: k8spysample-deployment
+spec:
+  selector:
+    matchLabels:
+      app: k8spysample
+  replicas: 1 # tells deployment to run 2 pods matching the template
+  template:
+    metadata:
+      labels:
+        app: k8spysample
+    spec:
+      containers:
+      - name: k8spysample
+        image: dubaek/k8spysample:1.0
