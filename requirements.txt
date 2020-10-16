@@ -1,0 +1,5 @@
+jsonpatch==1.26
+jsonpointer==2.0
+jsonschema==3.2.0
+urllib3==1.25.8
+virtualenv==20.0.17
