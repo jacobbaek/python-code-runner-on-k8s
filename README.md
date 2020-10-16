@@ -11,3 +11,6 @@ docker push dubaek/k8spysample:1.0
 ```
 kubectl create -f k8spysample-deploy.yaml
 ```
+
+# Following page can find docker image that is used on this manifest
+* https://hub.docker.com/repository/docker/dubaek/k8spysample/
